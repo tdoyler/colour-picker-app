@@ -4,7 +4,7 @@ const styles = {
 		border: "1px solid black",
 		borderRadius: "5px",
 		padding: "0.5rem",
-		paddingBottom: "1rem",
+		paddingBottom: "2rem",
 		position: "relative",
 		overflow: "hidden",
 		"&: hover": {
@@ -13,7 +13,7 @@ const styles = {
 	},
 	colors: {
 		backgroundColor: "#dae1e4",
-		height: "150px",
+		height: "130px",
 		width: "100%",
 		borderRadius: "5px",
 		overflow: "hidden",
