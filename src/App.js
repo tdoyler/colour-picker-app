@@ -26,17 +26,17 @@ class App extends Component {
 			(st) => ({
 				palettes: st.palettes.filter((palette) => palette.id !== id),
 			}),
-			this.syncLocalStoreage
+			this.syncLocalStorage
 		);
 	}
 	savePalette(newPalette) {
 		this.setState(
 			{ palettes: [...this.state.palettes, newPalette] },
-			this.syncLocalStoreage
+			this.syncLocalStorage
 		);
 	}
 
-	syncLocalStoreage() {
+	syncLocalStorage() {
 		// save palettes to local storage
 		window.localStorage.setItem(
 			"palettes",
